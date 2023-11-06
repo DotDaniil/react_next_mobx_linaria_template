@@ -113,7 +113,7 @@ module.exports = function (webpackEnv) {
         // css is located in `static/css`, use '../../' to locate index.html folder
         // in production `paths.publicUrlOrPath` can be a relative path
         options: paths.publicUrlOrPath.startsWith('.')
-          ? { publicPath: '../../' }
+          ? { publicPath: '../../', sourceMap: process.env.NODE_ENV !== 'production' }
           : {},
       },
       {
@@ -542,6 +542,18 @@ module.exports = function (webpackEnv) {
                 },
                 'sass-loader'
               ),
+            },
+            {
+              test: /\.js|mjs|jsx|ts|tsx$/,
+              use: [
+                { loader: 'babel-loader' },
+                {
+                  loader: '@linaria/webpack-loader',
+                  options: {
+                    sourceMap: process.env.NODE_ENV !== 'production',
+                  },
+                }
+              ],
             },
             // "file" loader makes sure those assets get served by WebpackDevServer.
             // When you `import` an asset, you get its (virtual) filename.

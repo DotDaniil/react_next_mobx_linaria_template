@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "next/babel",
+    "@babel/preset-env",
+    "@babel/preset-react",
+    "@linaria"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }]
+  ]
+}
