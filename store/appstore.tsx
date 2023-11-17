@@ -4,8 +4,6 @@ import { observable, action, makeObservable } from 'mobx';
 class AppStore {
     state = {changed: false};
 
-
-
     constructor() {
 
         makeObservable(this, {

@@ -6,8 +6,7 @@ const HomePage = observer(() => {
 
     return (
           <div>
-            {/*<h1>Counter: {appStore.state}</h1>*/}
-            <button onClick={appStore.changeState}>Increment</button>
+            <button onClick={appStore.changeState}>Change state</button>
         </div>
     );
 });
