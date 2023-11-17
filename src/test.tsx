@@ -1,5 +1,5 @@
 import React from 'react';
-import {css} from "@linaria/core";
+import { css } from "@linaria/core";
 
 export const Test = () => {
     return (
