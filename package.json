@@ -6,6 +6,7 @@
     "@babel/core": "^7.16.0",
     "@babel/plugin-proposal-decorators": "^7.23.2",
     "@linaria/core": "^5.0.2",
+    "@next/bundle-analyzer": "^14.0.4",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@svgr/webpack": "^5.5.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -43,6 +44,7 @@
     "mobx-react-lite": "^4.0.5",
     "next": "^14.0.1",
     "next-linaria": "^0.11.0",
+    "next-with-linaria": "^0.6.0",
     "postcss": "^8.4.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-loader": "^6.2.1",
@@ -145,7 +147,7 @@
     "resetMocks": true
   },
   "devDependencies": {
-    "@linaria/babel-preset": "^5.0.3",
+    "@linaria/babel-preset": "^5.0.4",
     "@linaria/react": "^5.0.3"
   }
 }
