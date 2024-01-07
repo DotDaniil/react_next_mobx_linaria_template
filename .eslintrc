@@ -12,6 +12,38 @@
     "object-curly-spacing": ["error" , "always"],
     "object-curly-newline": ["error", { "multiline": true, "consistent": true }],
     "quote-props": ["error", "as-needed"],
-    "quotes": ["error", "double"]
+    "quotes": ["error", "double"],
+    "react/prop-types": 0,
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".tsx"]
+      }
+    ],
+    "no-underscore-dangle": 0,
+    "no-nested-ternary": 1,
+    "no-use-before-define": 0,
+    "no-unused-expressions": 0,
+    "global-require": 0,
+    "allowTernary": 0,
+    "no-multi-assign": 0,
+    "no-restricted-syntax": 0,
+    "no-continue": 0,
+    "no-param-reassign": 0,
+    "no-restricted-globals": 0,
+    "class-methods-use-this": 0,
+    "default-case": 0,
+    "func-names": [1, "always", { "generators": "as-needed" }],
+    "prefer-const": 0,
+    "max-lines": ["error", 230],
+
+    "import/no-unresolved": 0,
+    "import/no-default-export": 2,
+    "import/imports-first": ["error", "absolute-first"],
+    "import/newline-after-import": "error",
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-dynamic-require": 0
   }
 }
