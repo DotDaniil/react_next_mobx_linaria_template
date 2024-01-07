@@ -8,6 +8,9 @@
     ],
   "plugins": ["prettier", "@typescript-eslint"],
   "rules": {
-    "react/jsx-indent": ["error", 2]
+    "react/jsx-indent": ["error", 2],
+    "object-curly-spacing": ["error" , "always"],
+    "quote-props": ["error", "as-needed"],
+    "quotes": ["error", "double"]
   }
 }
