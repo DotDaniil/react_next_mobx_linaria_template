@@ -10,6 +10,7 @@
   "rules": {
     "react/jsx-indent": ["error", 2],
     "object-curly-spacing": ["error" , "always"],
+    "object-curly-newline": ["error", { "multiline": true, "consistent": true }],
     "quote-props": ["error", "as-needed"],
     "quotes": ["error", "double"]
   }
