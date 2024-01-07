@@ -1,0 +1,13 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+    ],
+  "plugins": ["prettier", "@typescript-eslint"],
+  "rules": {
+    "react/jsx-indent": ["error", 2]
+  }
+}

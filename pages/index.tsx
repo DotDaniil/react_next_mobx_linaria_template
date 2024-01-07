@@ -6,9 +6,9 @@ import { css } from "@linaria/core";
 const HomePage = observer(() => {
 
     return (
-          <div>
-            <button className={test} onClick={appStore.changeState}>Change state</button>
-        </div>
+      <div>
+        <button className={test} onClick={appStore.changeState}>Change state</button>
+      </div>
     );
 });
 
