@@ -14,7 +14,7 @@
     "quote-props": ["error", "as-needed"],
     "quotes": ["error", "double"],
     "react/prop-types": 0,
-    "prettier/prettier": ["error", { "singleQuote": true }],
+    "prettier/prettier": ["error", { "singleQuote": false }],
     "react/jsx-filename-extension": [
       1,
       {
